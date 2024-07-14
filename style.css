@@ -41,7 +41,7 @@ body {
     margin: 20px 0;
 }
 
-.banner-text-container .btn {
+.btn {
     color: rgb(255, 255, 255);
     font-size: 20x;
     font-weight: 700;
@@ -64,12 +64,12 @@ body {
     margin-top: 7%;
 }
 
-.featured-flowers h2 {
+.details h2 {
     font-size: 40px;
     font-weight: 800;
 }
 
-.featured-flowers p {
+.details p {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
@@ -150,6 +150,7 @@ body {
 .part-3 {
     background: white;
     padding: 30px;
+    border-radius: 10px;
 }
 
 .support-container p {
@@ -157,4 +158,35 @@ body {
     font-size: 18px;
     font-weight: 600;
     color: rgba(39, 39, 39, 0.8);
+}
+
+.discount {
+    margin-top: 5%;
+    width: 100%;
+    height: 420px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+}
+
+.details {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details .p {
+    text-align: center;
+}
+
+.discount img {
+    width: 40%;
+}
+
+.img-part {
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 4%;
 }
