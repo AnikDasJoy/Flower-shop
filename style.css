@@ -96,19 +96,19 @@ body {
 }
 
 .first-img img {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
 
 .second-img img {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
 
 .third-img img {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
@@ -220,6 +220,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    margin-bottom: 5%;
 }
 
 .deal-container .deal {
@@ -250,4 +251,30 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer {
+    margin: 0 auto;
+    width: 100%;
+    height: 420px;
+    background: rgb(17, 16, 16);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+footer .para {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
 }
