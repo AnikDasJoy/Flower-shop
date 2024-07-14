@@ -191,6 +191,10 @@ body {
     padding-top: 4%;
 }
 
+.instagram {
+    margin-bottom: 5%;
+}
+
 .instagram .details {
     margin: 0 auto;
 }
@@ -205,4 +209,45 @@ body {
 
 .instagram-img img {
     border-radius: 10px;
+}
+
+.deal-container {
+    width: 1140px;
+    height: 349px;
+    border: 2px solid white;
+    margin: 0 auto;
+    background-image: url("Flower Asset/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.deal-container .deal {
+    margin-top: -5px;
+}
+
+.deal-container .details {
+    margin: 0 auto;
+    margin-top: 7%;
+}
+
+.deal-container .text {
+    width: 550px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.deal-container .btn {
+    height: 64px;
+    width: 150px;
+}
+
+.deal-container .detail-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
